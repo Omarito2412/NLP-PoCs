@@ -71,7 +71,6 @@ class TransformerExtractor(NeExtractor):
             )
 
         grouped_bio = groupby_bio(bio_predictions)
-
         extractions = []
         for named_entity in grouped_bio:
             start, end = named_entity[1][0].start, named_entity[1][-1].end

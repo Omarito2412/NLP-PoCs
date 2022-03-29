@@ -3,3 +3,4 @@ transformers~=4.16.2
 dacite~=1.6.0
 fastapi~=0.63.0
 pydantic~=1.8.2
+streamlit~=1.8.0
